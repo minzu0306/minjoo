@@ -1,0 +1,28 @@
+/opt/carbon-0.9.12
+ |ㅡbin
+ |  |ㅡcarbon-aggregator.py 
+ |  |ㅡcarbon-cache.py
+ |  |ㅡcarbon-client.py
+ |  |ㅡcarbon-relay.py
+ |  |ㅡvalidate-storage-schemas.py
+ |ㅡconf
+ |  |ㅡaggregation-rules.conf.example
+ |  |ㅡblacklist.conf.example
+ |  |ㅡcabon.amqp.conf.example
+ |  |ㅡcarbon.conf.example
+ |  |ㅡrelay-rules.conf.example
+ |  |ㅡrewrite-rules.conf.example
+ |  |ㅡstorage-aggregation.conf.example
+ |  |ㅡstorage-schemas.conf.example
+ |  |ㅡwhitelist.conf.example
+ |ㅡbuild
+ |ㅡdebian
+ |ㅡdistro
+ |ㅡexamples
+ |ㅡlib
+ |ㅡsetup.py
+
+/opt/graphite/conf/
+ |ㅡcarbon.conf : carbon daemon configure file
+ |ㅡstorage-aggregation.conf : 데이터 집합 시 conf file. whisper file에 적용되는 aggregation methods, 60초마다 스캔되서 적용됨
+ |ㅡstorage-schemas.conf : 데이터 집합 관련 스키마 conf? 
